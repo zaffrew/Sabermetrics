@@ -1,0 +1,19 @@
+
+
+bestLinearRegression = ['G_y', 'GS', 'WAR_x', 'BB%', 'K/9', 'GB%', 'ERA', 'xFIP', 'LOB%']
+bestXGBoost = ['LOB%', 'K/9', 'GS', 'xFIP', 'GB%', 'BB%', 'G_y'] RSME 11.88, error 9.16
+bestSVM = ['xFIP', 'LOB%', 'K/9', 'GS', 'ERA', 'G_y'] 11.11 rms, 9.02 error
+allFeatures = ['Season', 'Team', 'W', 'L', 'SV', 'G_x', 'GS', 'IP', 'SO', 'K/9',
+       'BB/9', 'HR/9', 'BABIP_x', 'LOB%', 'GB%', 'HR/FB', 'ERA', 'FIP', 'xFIP',
+       'WAR_x', 'G_y', 'PA', 'HR', 'R', 'RBI', 'SB', 'BB%', 'K%', 'ISO',
+       'BABIP_y', 'AVG', 'OBP', 'SLG', 'wOBA', 'wRC+', 'BsR', 'Off', 'Def',
+       'WAR_y']
+
+
+hr= [ 'HR/9', 'WAR_y', 'L', 'ERA', 'ISO', 'GS', 'BsR', 'xFIP', 'BB/9', 'W'] 33.800626900480054
+
+
+SO = ['L', 'BABIP_x', 'xFIP', 'ERA', 'HR/9', 'BB%', 'G_y', 'K/9', 'wRC+', 'HR/FB', 'G_x'] #The RMSE is:  107.06826707496887
+
+
+k/9 =  ['L', 'BB%', 'G_x', 'xFIP', 'Off', 'G_y', 'LOB%', 'ERA'] #RMSE is: 0.6660406644314525
